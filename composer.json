@@ -1,0 +1,23 @@
+{
+    "name": "ikoncoder/ikonstarter",
+    "description": "Laravel Starter Kits with extra functions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ikoncoder",
+            "email": "ikoncoder@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ikoncoder\\Ikonstarter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ikoncoder\\Ikonstarter\\IkonstarterServiceProvider"
+            ]
+        }
+    }
+}
